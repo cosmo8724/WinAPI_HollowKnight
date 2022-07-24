@@ -1,0 +1,541 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="00. MainGame">
+      <UniqueIdentifier>{02a62faa-3909-44e7-bdba-cb7b04728ab1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99. Header">
+      <UniqueIdentifier>{d1f7ac38-2b50-4fac-83d3-f2c85bf67499}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj">
+      <UniqueIdentifier>{7762d3f7-1ec2-4f39-b0db-adad7b1bd35a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\00. Player">
+      <UniqueIdentifier>{7534f56b-13be-49da-9325-80ea6e442630}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98. Design">
+      <UniqueIdentifier>{68cd111d-f6a4-45aa-8593-0bbc85c92997}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98. Design\00. Abstract_Factory">
+      <UniqueIdentifier>{b0a1cc6a-621f-40dd-8c70-18e8d1095140}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98. Design\01. Collision_Mgr">
+      <UniqueIdentifier>{707b7b7a-94e3-42d2-a4ec-e010120d7c91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98. Design\02. Obj_Mgr">
+      <UniqueIdentifier>{ee1cd25e-9874-404f-ac26-b0103a6c250f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98. Design\03. Line_Mgr">
+      <UniqueIdentifier>{5f877425-4e15-4874-ad58-99f31109644c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98. Design\04. Key_Mgr">
+      <UniqueIdentifier>{6e6857af-d465-40d4-838c-dede8947b591}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98. Design\05. Scroll_Mgr">
+      <UniqueIdentifier>{537f34b7-3d9f-47e8-877a-736a869dc3b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98. Design\06. Scene_Mgr">
+      <UniqueIdentifier>{208cc39a-bef8-497a-9b75-075d3ab78a62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98. Design\07. BitMap">
+      <UniqueIdentifier>{7834edab-ea57-4b64-bc12-0ee0830efcef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\02. Sword">
+      <UniqueIdentifier>{b0285a7c-51c8-425a-a9fd-f76883274932}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\03. Bullet">
+      <UniqueIdentifier>{44551025-2c2c-47fe-a2cf-f15e14c9dafa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Scene">
+      <UniqueIdentifier>{99e28612-31f5-4e81-bd5e-6f7ad8e8d141}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Scene\00. Logo">
+      <UniqueIdentifier>{3b762381-0131-46f4-b5d7-e71fef099d97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Scene\01. Menu">
+      <UniqueIdentifier>{e90b4ab2-b42e-4e63-9eac-4e7fd93d270a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Scene\02. Stage">
+      <UniqueIdentifier>{146dc7a4-164f-4ade-896c-cba04aa6e828}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98. Design\08. Timer">
+      <UniqueIdentifier>{1df06838-42c8-48b2-948e-c28592635c15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\01. Monster">
+      <UniqueIdentifier>{9d01fe1e-f300-4577-8c95-fc59c64d5195}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Scene\02. Stage\00. Start_Stage">
+      <UniqueIdentifier>{b3259d43-5c0c-4b9d-b83e-2fa81bc33c48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Scene\02. Stage\01. First_Stage">
+      <UniqueIdentifier>{56788d1e-d4fd-4f85-a390-b3aa57327759}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98. Design\09. SoundMgr">
+      <UniqueIdentifier>{4f3b9785-6f87-41e3-890f-43e7ba41d277}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Scene\02. Stage\03. Mantis_Lords_Stage">
+      <UniqueIdentifier>{a79a98e3-d5c1-433e-b075-79ca286841ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\08. Trap">
+      <UniqueIdentifier>{a51b2666-7914-4b14-847d-34521491b7b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\08. Trap\00. Saw">
+      <UniqueIdentifier>{2fcfb423-91ab-4095-90d1-66cd931c549e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\08. Trap\01. Mantis_Spike">
+      <UniqueIdentifier>{2ddff85f-1bf7-40d9-9a3a-b8a5ce9a7872}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\08. Trap\02. White_Spike">
+      <UniqueIdentifier>{36a818a6-24ab-4468-b9d8-092168596ed6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Scene\02. Stage\04. The_Radiance_Stage">
+      <UniqueIdentifier>{390918be-b305-4fc3-861d-80535235b949}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\01. Monster\Mentis_Lord">
+      <UniqueIdentifier>{282ace27-8568-4e1d-9957-ebfb6a256ae3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\01. Monster\The_Radiance">
+      <UniqueIdentifier>{1c902a05-bfce-4f00-8b6f-5e7c22ffe013}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\02. Sword\Player">
+      <UniqueIdentifier>{c32ad2b2-913a-4722-bf6e-dff004f0e99e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\02. Sword\Player\Slash">
+      <UniqueIdentifier>{9a2a0229-8859-4f3d-b09b-071350c9dad4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\02. Sword\Player\Up_Slash">
+      <UniqueIdentifier>{70fc6c53-9870-4821-9b46-ecb8c1c39373}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\02. Sword\Player\Down_Slash">
+      <UniqueIdentifier>{cbace690-175b-4b88-8a51-f58173ee48e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\04. Effect">
+      <UniqueIdentifier>{10e8bab4-6033-4910-a1a4-768336e863ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\04. Effect\Player">
+      <UniqueIdentifier>{e329c508-3ad6-4978-a93e-68a1847d2491}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\04. Effect\Player\Dash">
+      <UniqueIdentifier>{6b5bd7bd-c778-4188-a7e7-43d21ce13038}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\04. Effect\Player\DoubleJump_Effect">
+      <UniqueIdentifier>{fab9b730-e9de-429a-98d4-f27e8bd29e83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\04. Effect\Player\Hit_Effect">
+      <UniqueIdentifier>{4c0eda27-ef80-4f09-9575-6755c118d7bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\04. Effect\Player\Damaged_Effect">
+      <UniqueIdentifier>{8d8a62f0-c1fe-44fa-a094-82b311307298}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\04. Effect\Player\Down_Hit_Effect">
+      <UniqueIdentifier>{b48dc491-264c-45c6-b1c7-0b7dd45db5b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\04. Effect\Player\Up_Hit_Effect">
+      <UniqueIdentifier>{9d1126de-f307-4c57-8a15-f41b8e833474}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\04. Effect\The_Radiance">
+      <UniqueIdentifier>{31552de9-75a4-4b1f-a4df-e934fb30b56c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\04. Effect\The_Radiance\Back_Effect">
+      <UniqueIdentifier>{bb431377-283d-424f-a25c-efd1b0a222f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\05. Rectangle">
+      <UniqueIdentifier>{e791a093-772b-4f79-9af5-50e05e04f9ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\06. UI">
+      <UniqueIdentifier>{a4c9b9cc-8a8e-4ec7-a8d2-692c4ff9da27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\06. UI\Soul_Gage">
+      <UniqueIdentifier>{39e114a1-9af1-41ee-b7d3-8903d3c4a335}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\06. UI\HP_Stone">
+      <UniqueIdentifier>{c1e734c2-5ca6-4708-a6e5-9fbd9fe6a0c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\06. UI\MyButton">
+      <UniqueIdentifier>{10d6f61d-b6d5-4c17-857c-21a20ec0189e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\06. UI\MyPointer">
+      <UniqueIdentifier>{6ad7ac1d-8d02-46a7-a471-37ff3a377ee1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\02. Sword\The_Radiance">
+      <UniqueIdentifier>{264e982a-a0a6-454e-862b-a5535566aed9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\02. Sword\The_Radiance\Horizon_Spear">
+      <UniqueIdentifier>{61aaec71-4230-4375-b6a0-e20acf7b7c1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\02. Sword\The_Radiance\Vertical_Spear">
+      <UniqueIdentifier>{4fed9210-d8d3-41e0-b1ab-4d862a357b33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\04. Effect\Player\Focus_Effect">
+      <UniqueIdentifier>{677fd9e6-d6bd-4262-9c7b-325a2baf8192}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\04. Effect\Player\Focus_Get_Effect">
+      <UniqueIdentifier>{e2d3cfc7-9f78-4fda-92c6-dd228728a956}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\04. Effect\Player\Wall_Jump_Effect">
+      <UniqueIdentifier>{cd77e617-2562-4e2b-b5bb-5b39b94bf9d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\03. Bullet\Player">
+      <UniqueIdentifier>{68dd1499-c1b4-4949-b3a9-bafade6f11a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\03. Bullet\Player\FireBall">
+      <UniqueIdentifier>{9c7582bb-111e-4e62-9709-1bab44ef568e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\04. Effect\Player\FireBall_Hit_Wall">
+      <UniqueIdentifier>{058de460-2d22-4ac4-9a4d-14f381fe6ddc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="HollowKnight.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="MainGame.h">
+      <Filter>00. MainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="Define.h">
+      <Filter>99. Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Enum.h">
+      <Filter>99. Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Include.h">
+      <Filter>99. Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Struct.h">
+      <Filter>99. Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Function.h">
+      <Filter>99. Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Obj.h">
+      <Filter>01. Obj</Filter>
+    </ClInclude>
+    <ClInclude Include="Abstract_Factory.h">
+      <Filter>98. Design\00. Abstract_Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="Collision_Mgr.h">
+      <Filter>98. Design\01. Collision_Mgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Obj_Mgr.h">
+      <Filter>98. Design\02. Obj_Mgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Line.h">
+      <Filter>98. Design\03. Line_Mgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Line_Mgr.h">
+      <Filter>98. Design\03. Line_Mgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Key_Mgr.h">
+      <Filter>98. Design\04. Key_Mgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Scroll_Mgr.h">
+      <Filter>98. Design\05. Scroll_Mgr</Filter>
+    </ClInclude>
+    <ClInclude Include="BitMap.h">
+      <Filter>98. Design\07. BitMap</Filter>
+    </ClInclude>
+    <ClInclude Include="Bmp_Mgr.h">
+      <Filter>98. Design\07. BitMap</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene_Mgr.h">
+      <Filter>98. Design\06. Scene_Mgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>02. Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Logo.h">
+      <Filter>02. Scene\00. Logo</Filter>
+    </ClInclude>
+    <ClInclude Include="MyMenu.h">
+      <Filter>02. Scene\01. Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>98. Design\08. Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>01. Obj\00. Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Dash_Effect.h">
+      <Filter>01. Obj\04. Effect\Player\Dash</Filter>
+    </ClInclude>
+    <ClInclude Include="Slash_Effect.h">
+      <Filter>01. Obj\02. Sword\Player\Slash</Filter>
+    </ClInclude>
+    <ClInclude Include="UpSlash_Effect.h">
+      <Filter>01. Obj\02. Sword\Player\Up_Slash</Filter>
+    </ClInclude>
+    <ClInclude Include="DownSlash_Effect.h">
+      <Filter>01. Obj\02. Sword\Player\Down_Slash</Filter>
+    </ClInclude>
+    <ClInclude Include="DoubleJump_Effect.h">
+      <Filter>01. Obj\04. Effect\Player\DoubleJump_Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="Rectangle.h">
+      <Filter>01. Obj\05. Rectangle</Filter>
+    </ClInclude>
+    <ClInclude Include="Soul_Gage.h">
+      <Filter>01. Obj\06. UI\Soul_Gage</Filter>
+    </ClInclude>
+    <ClInclude Include="HP_Stone.h">
+      <Filter>01. Obj\06. UI\HP_Stone</Filter>
+    </ClInclude>
+    <ClInclude Include="Start_Stage.h">
+      <Filter>02. Scene\02. Stage\00. Start_Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="First_Stage.h">
+      <Filter>02. Scene\02. Stage\01. First_Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundMgr.h">
+      <Filter>98. Design\09. SoundMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage.h">
+      <Filter>02. Scene\02. Stage\03. Mantis_Lords_Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="Saw.h">
+      <Filter>01. Obj\08. Trap\00. Saw</Filter>
+    </ClInclude>
+    <ClInclude Include="Mantis_Spike.h">
+      <Filter>01. Obj\08. Trap\01. Mantis_Spike</Filter>
+    </ClInclude>
+    <ClInclude Include="White_Spike.h">
+      <Filter>01. Obj\08. Trap\02. White_Spike</Filter>
+    </ClInclude>
+    <ClInclude Include="MyButton.h">
+      <Filter>01. Obj\06. UI\MyButton</Filter>
+    </ClInclude>
+    <ClInclude Include="MyPointer.h">
+      <Filter>01. Obj\06. UI\MyPointer</Filter>
+    </ClInclude>
+    <ClInclude Include="The_Radiance_Stage.h">
+      <Filter>02. Scene\02. Stage\04. The_Radiance_Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="Mantis_Lord.h">
+      <Filter>01. Obj\01. Monster\Mentis_Lord</Filter>
+    </ClInclude>
+    <ClInclude Include="The_Radiance.h">
+      <Filter>01. Obj\01. Monster\The_Radiance</Filter>
+    </ClInclude>
+    <ClInclude Include="Back_Effect.h">
+      <Filter>01. Obj\04. Effect\The_Radiance\Back_Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="Hit_Effect.h">
+      <Filter>01. Obj\04. Effect\Player\Hit_Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="Damaged_Effect.h">
+      <Filter>01. Obj\04. Effect\Player\Damaged_Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="Down_Hit_Effect.h">
+      <Filter>01. Obj\04. Effect\Player\Down_Hit_Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="Up_Hit_Effect.h">
+      <Filter>01. Obj\04. Effect\Player\Up_Hit_Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="Horizon_Spear.h">
+      <Filter>01. Obj\02. Sword\The_Radiance\Horizon_Spear</Filter>
+    </ClInclude>
+    <ClInclude Include="Vertical_Spear.h">
+      <Filter>01. Obj\02. Sword\The_Radiance\Vertical_Spear</Filter>
+    </ClInclude>
+    <ClInclude Include="Focus_Effect.h">
+      <Filter>01. Obj\04. Effect\Player\Focus_Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="Focus_Get_Effect.h">
+      <Filter>01. Obj\04. Effect\Player\Focus_Get_Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="Wall_Jump_Effect.h">
+      <Filter>01. Obj\04. Effect\Player\Wall_Jump_Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="FireBall.h">
+      <Filter>01. Obj\03. Bullet\Player\FireBall</Filter>
+    </ClInclude>
+    <ClInclude Include="FireBall_Hit_Wall.h">
+      <Filter>01. Obj\04. Effect\Player\FireBall_Hit_Wall</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="HollowKnight.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="MainGame.cpp">
+      <Filter>00. MainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="Obj.cpp">
+      <Filter>01. Obj</Filter>
+    </ClCompile>
+    <ClCompile Include="Collision_Mgr.cpp">
+      <Filter>98. Design\01. Collision_Mgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Obj_Mgr.cpp">
+      <Filter>98. Design\02. Obj_Mgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Line.cpp">
+      <Filter>98. Design\03. Line_Mgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Line_Mgr.cpp">
+      <Filter>98. Design\03. Line_Mgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Key_Mgr.cpp">
+      <Filter>98. Design\04. Key_Mgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Scroll_Mgr.cpp">
+      <Filter>98. Design\05. Scroll_Mgr</Filter>
+    </ClCompile>
+    <ClCompile Include="BitMap.cpp">
+      <Filter>98. Design\07. BitMap</Filter>
+    </ClCompile>
+    <ClCompile Include="Bmp_Mgr.cpp">
+      <Filter>98. Design\07. BitMap</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene_Mgr.cpp">
+      <Filter>98. Design\06. Scene_Mgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>02. Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Logo.cpp">
+      <Filter>02. Scene\00. Logo</Filter>
+    </ClCompile>
+    <ClCompile Include="MyMenu.cpp">
+      <Filter>02. Scene\01. Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>01. Obj\00. Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Dash_Effect.cpp">
+      <Filter>01. Obj\04. Effect\Player\Dash</Filter>
+    </ClCompile>
+    <ClCompile Include="Slash_Effect.cpp">
+      <Filter>01. Obj\02. Sword\Player\Slash</Filter>
+    </ClCompile>
+    <ClCompile Include="UpSlash_Effect.cpp">
+      <Filter>01. Obj\02. Sword\Player\Up_Slash</Filter>
+    </ClCompile>
+    <ClCompile Include="DownSlash_Effect.cpp">
+      <Filter>01. Obj\02. Sword\Player\Down_Slash</Filter>
+    </ClCompile>
+    <ClCompile Include="DoubleJump_Effect.cpp">
+      <Filter>01. Obj\04. Effect\Player\DoubleJump_Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="Rectangle.cpp">
+      <Filter>01. Obj\05. Rectangle</Filter>
+    </ClCompile>
+    <ClCompile Include="Soul_Gage.cpp">
+      <Filter>01. Obj\06. UI\Soul_Gage</Filter>
+    </ClCompile>
+    <ClCompile Include="HP_Stone.cpp">
+      <Filter>01. Obj\06. UI\HP_Stone</Filter>
+    </ClCompile>
+    <ClCompile Include="Start_Stage.cpp">
+      <Filter>02. Scene\02. Stage\00. Start_Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="First_Stage.cpp">
+      <Filter>02. Scene\02. Stage\01. First_Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundMgr.cpp">
+      <Filter>98. Design\09. SoundMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage.cpp">
+      <Filter>02. Scene\02. Stage\03. Mantis_Lords_Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="Saw.cpp">
+      <Filter>01. Obj\08. Trap\00. Saw</Filter>
+    </ClCompile>
+    <ClCompile Include="Mantis_Spike.cpp">
+      <Filter>01. Obj\08. Trap\01. Mantis_Spike</Filter>
+    </ClCompile>
+    <ClCompile Include="White_Spike.cpp">
+      <Filter>01. Obj\08. Trap\02. White_Spike</Filter>
+    </ClCompile>
+    <ClCompile Include="MyButton.cpp">
+      <Filter>01. Obj\06. UI\MyButton</Filter>
+    </ClCompile>
+    <ClCompile Include="MyPointer.cpp">
+      <Filter>01. Obj\06. UI\MyPointer</Filter>
+    </ClCompile>
+    <ClCompile Include="The_Radiance_Stage.cpp">
+      <Filter>02. Scene\02. Stage\04. The_Radiance_Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="Mantis_Lord.cpp">
+      <Filter>01. Obj\01. Monster\Mentis_Lord</Filter>
+    </ClCompile>
+    <ClCompile Include="The_Radiance.cpp">
+      <Filter>01. Obj\01. Monster\The_Radiance</Filter>
+    </ClCompile>
+    <ClCompile Include="Back_Effect.cpp">
+      <Filter>01. Obj\04. Effect\The_Radiance\Back_Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="Hit_Effect.cpp">
+      <Filter>01. Obj\04. Effect\Player\Hit_Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="Damaged_Effect.cpp">
+      <Filter>01. Obj\04. Effect\Player\Damaged_Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="Down_Hit_Effect.cpp">
+      <Filter>01. Obj\04. Effect\Player\Down_Hit_Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="Up_Hit_Effect.cpp">
+      <Filter>01. Obj\04. Effect\Player\Up_Hit_Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="Horizon_Spear.cpp">
+      <Filter>01. Obj\02. Sword\The_Radiance\Horizon_Spear</Filter>
+    </ClCompile>
+    <ClCompile Include="Vertical_Spear.cpp">
+      <Filter>01. Obj\02. Sword\The_Radiance\Vertical_Spear</Filter>
+    </ClCompile>
+    <ClCompile Include="Focus_Effect.cpp">
+      <Filter>01. Obj\04. Effect\Player\Focus_Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="Focus_Get_Effect.cpp">
+      <Filter>01. Obj\04. Effect\Player\Focus_Get_Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="Wall_Jump_Effect.cpp">
+      <Filter>01. Obj\04. Effect\Player\Wall_Jump_Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="FireBall.cpp">
+      <Filter>01. Obj\03. Bullet\Player\FireBall</Filter>
+    </ClCompile>
+    <ClCompile Include="FireBall_Hit_Wall.cpp">
+      <Filter>01. Obj\04. Effect\Player\FireBall_Hit_Wall</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="HollowKnight.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="HollowKnight.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

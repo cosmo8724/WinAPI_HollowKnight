@@ -1,0 +1,275 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{C711ED5D-8887-451B-A001-592F98D457DA}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>HollowKnight</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>../Header</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>../Header</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Abstract_Factory.h" />
+    <ClInclude Include="Back_Effect.h" />
+    <ClInclude Include="BitMap.h" />
+    <ClInclude Include="Bmp_Mgr.h" />
+    <ClInclude Include="Collision_Mgr.h" />
+    <ClInclude Include="Damaged_Effect.h" />
+    <ClInclude Include="Dash_Effect.h" />
+    <ClInclude Include="DoubleJump_Effect.h" />
+    <ClInclude Include="DownSlash_Effect.h" />
+    <ClInclude Include="Down_Hit_Effect.h" />
+    <ClInclude Include="FireBall.h" />
+    <ClInclude Include="FireBall_Hit_Wall.h" />
+    <ClInclude Include="First_Stage.h" />
+    <ClInclude Include="Focus_Effect.h" />
+    <ClInclude Include="Focus_Get_Effect.h" />
+    <ClInclude Include="Hit_Effect.h" />
+    <ClInclude Include="HollowKnight.h" />
+    <ClInclude Include="Horizon_Spear.h" />
+    <ClInclude Include="HP_Stone.h" />
+    <ClInclude Include="Key_Mgr.h" />
+    <ClInclude Include="Line.h" />
+    <ClInclude Include="Line_Mgr.h" />
+    <ClInclude Include="Logo.h" />
+    <ClInclude Include="MainGame.h" />
+    <ClInclude Include="Mantis_Lord.h" />
+    <ClInclude Include="Mantis_Spike.h" />
+    <ClInclude Include="MyButton.h" />
+    <ClInclude Include="MyMenu.h" />
+    <ClInclude Include="MyPointer.h" />
+    <ClInclude Include="Obj.h" />
+    <ClInclude Include="Obj_Mgr.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="Rectangle.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="Saw.h" />
+    <ClInclude Include="Scene.h" />
+    <ClInclude Include="Scene_Mgr.h" />
+    <ClInclude Include="Scroll_Mgr.h" />
+    <ClInclude Include="Slash_Effect.h" />
+    <ClInclude Include="Soul_Gage.h" />
+    <ClInclude Include="SoundMgr.h" />
+    <ClInclude Include="Stage.h" />
+    <ClInclude Include="Start_Stage.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="Define.h" />
+    <ClInclude Include="Enum.h" />
+    <ClInclude Include="Function.h" />
+    <ClInclude Include="Include.h" />
+    <ClInclude Include="Struct.h" />
+    <ClInclude Include="The_Radiance.h" />
+    <ClInclude Include="The_Radiance_Stage.h" />
+    <ClInclude Include="Timer.h" />
+    <ClInclude Include="UpSlash_Effect.h" />
+    <ClInclude Include="Up_Hit_Effect.h" />
+    <ClInclude Include="Vertical_Spear.h" />
+    <ClInclude Include="Wall_Jump_Effect.h" />
+    <ClInclude Include="White_Spike.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Back_Effect.cpp" />
+    <ClCompile Include="BitMap.cpp" />
+    <ClCompile Include="Bmp_Mgr.cpp" />
+    <ClCompile Include="Collision_Mgr.cpp" />
+    <ClCompile Include="Damaged_Effect.cpp" />
+    <ClCompile Include="Dash_Effect.cpp" />
+    <ClCompile Include="DoubleJump_Effect.cpp" />
+    <ClCompile Include="DownSlash_Effect.cpp" />
+    <ClCompile Include="Down_Hit_Effect.cpp" />
+    <ClCompile Include="FireBall.cpp" />
+    <ClCompile Include="FireBall_Hit_Wall.cpp" />
+    <ClCompile Include="First_Stage.cpp" />
+    <ClCompile Include="Focus_Effect.cpp" />
+    <ClCompile Include="Focus_Get_Effect.cpp" />
+    <ClCompile Include="Hit_Effect.cpp" />
+    <ClCompile Include="HollowKnight.cpp" />
+    <ClCompile Include="Horizon_Spear.cpp" />
+    <ClCompile Include="HP_Stone.cpp" />
+    <ClCompile Include="Key_Mgr.cpp" />
+    <ClCompile Include="Line.cpp" />
+    <ClCompile Include="Line_Mgr.cpp" />
+    <ClCompile Include="Logo.cpp" />
+    <ClCompile Include="MainGame.cpp" />
+    <ClCompile Include="Mantis_Lord.cpp" />
+    <ClCompile Include="Mantis_Spike.cpp" />
+    <ClCompile Include="MyButton.cpp" />
+    <ClCompile Include="MyMenu.cpp" />
+    <ClCompile Include="MyPointer.cpp" />
+    <ClCompile Include="Obj.cpp" />
+    <ClCompile Include="Obj_Mgr.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="Rectangle.cpp" />
+    <ClCompile Include="Saw.cpp" />
+    <ClCompile Include="Scene.cpp" />
+    <ClCompile Include="Scene_Mgr.cpp" />
+    <ClCompile Include="Scroll_Mgr.cpp" />
+    <ClCompile Include="Slash_Effect.cpp" />
+    <ClCompile Include="Soul_Gage.cpp" />
+    <ClCompile Include="SoundMgr.cpp" />
+    <ClCompile Include="Stage.cpp" />
+    <ClCompile Include="Start_Stage.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="The_Radiance.cpp" />
+    <ClCompile Include="The_Radiance_Stage.cpp" />
+    <ClCompile Include="UpSlash_Effect.cpp" />
+    <ClCompile Include="Up_Hit_Effect.cpp" />
+    <ClCompile Include="Vertical_Spear.cpp" />
+    <ClCompile Include="Wall_Jump_Effect.cpp" />
+    <ClCompile Include="White_Spike.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="HollowKnight.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="HollowKnight.ico" />
+    <Image Include="small.ico" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

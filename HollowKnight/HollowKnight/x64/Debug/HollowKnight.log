@@ -1,0 +1,23 @@
+﻿  stdafx.cpp
+  Stage.cpp
+  Scroll_Mgr.cpp
+  Scene_Mgr.cpp
+  Scene.cpp
+  Player.cpp
+  Obj_Mgr.cpp
+  Obj.cpp
+  MyMenu.cpp
+  MainGame.cpp
+c:\cosmo\jusin\3. windows api\api project\hollowknight\hollowknight\maingame.cpp(47): warning C4474: 'swprintf_s' : 서식 문자열에 전달된 인수가 너무 많습니다.
+  c:\cosmo\jusin\3. windows api\api project\hollowknight\hollowknight\maingame.cpp(47): note: 자리 표시자 및 해당 매개 변수에는 variadic 인수가 0개 필요하지만 1개가 제공되었습니다.
+  Logo.cpp
+  Line_Mgr.cpp
+  Line.cpp
+  Key_Mgr.cpp
+  HollowKnight.cpp
+  Collision_Mgr.cpp
+  Bmp_Mgr.cpp
+  BitMap.cpp
+  코드를 생성하고 있습니다...
+Stage.obj : error LNK2001: "private: static class CObj_Mgr * CObj_Mgr::m_pInstance" (?m_pInstance@CObj_Mgr@@0PEAV1@EA) 외부 기호를 확인할 수 없습니다.
+C:\Cosmo\Jusin\3. Windows API\API Project\HollowKnight\x64\Debug\HollowKnight.exe : fatal error LNK1120: 1개의 확인할 수 없는 외부 참조입니다.

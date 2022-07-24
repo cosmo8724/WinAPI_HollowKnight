@@ -1,0 +1,11 @@
+﻿  Player.cpp
+c:\cosmo\jusin\3. windows api\api project\hollowknight\hollowknight\player.cpp(354): warning C4244: '인수': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\cosmo\jusin\3. windows api\api project\hollowknight\hollowknight\player.cpp(474): warning C4244: '인수': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\cosmo\jusin\3. windows api\api project\hollowknight\hollowknight\player.cpp(812): warning C4244: '초기화 중': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\cosmo\jusin\3. windows api\api project\hollowknight\hollowknight\player.cpp(813): warning C4244: '초기화 중': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\cosmo\jusin\3. windows api\api project\hollowknight\hollowknight\player.cpp(817): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\cosmo\jusin\3. windows api\api project\hollowknight\hollowknight\player.cpp(819): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\cosmo\jusin\3. windows api\api project\hollowknight\hollowknight\player.cpp(825): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\cosmo\jusin\3. windows api\api project\hollowknight\hollowknight\player.cpp(827): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  HollowKnight.vcxproj -> C:\Cosmo\Jusin\3. Windows API\API Project\HollowKnight\Debug\HollowKnight.exe
+  HollowKnight.vcxproj -> C:\Cosmo\Jusin\3. Windows API\API Project\HollowKnight\Debug\HollowKnight.pdb (Full PDB)

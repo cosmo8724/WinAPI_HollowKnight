@@ -1,0 +1,71 @@
+﻿  stdafx.cpp
+  Back_Effect.cpp
+  BitMap.cpp
+  Bmp_Mgr.cpp
+  Collision_Mgr.cpp
+  Damaged_Effect.cpp
+  Dash_Effect.cpp
+  DoubleJump_Effect.cpp
+  DownSlash_Effect.cpp
+  Down_Hit_Effect.cpp
+  FireBall.cpp
+  FireBall_Hit_Wall.cpp
+  First_Stage.cpp
+  Focus_Effect.cpp
+  Focus_Get_Effect.cpp
+  Hit_Effect.cpp
+  HollowKnight.cpp
+  Horizon_Spear.cpp
+  HP_Stone.cpp
+HP_Stone.cpp(160): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+HP_Stone.cpp(162): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Key_Mgr.cpp
+  Line.cpp
+  컴파일하고 있습니다...
+  Line_Mgr.cpp
+  Logo.cpp
+  MainGame.cpp
+  Mantis_Lord.cpp
+  Mantis_Spike.cpp
+  MyButton.cpp
+  MyMenu.cpp
+  MyPointer.cpp
+  Obj.cpp
+  Obj_Mgr.cpp
+  Player.cpp
+Player.cpp(332): warning C4244: '인수': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+Player.cpp(436): warning C4244: '인수': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+Player.cpp(750): warning C4244: '초기화 중': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+Player.cpp(751): warning C4244: '초기화 중': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+Player.cpp(755): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+Player.cpp(757): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+Player.cpp(763): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+Player.cpp(765): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Rectangle.cpp
+Rectangle.cpp(72): warning C4838: 'double'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
+Rectangle.cpp(72): warning C4244: '초기화 중': 'double'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+Rectangle.cpp(72): warning C4838: 'float'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
+Rectangle.cpp(72): warning C4244: '초기화 중': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Saw.cpp
+  Scene.cpp
+  Scene_Mgr.cpp
+  Scroll_Mgr.cpp
+  Slash_Effect.cpp
+  Soul_Gage.cpp
+Soul_Gage.cpp(41): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  SoundMgr.cpp
+  Stage.cpp
+  컴파일하고 있습니다...
+  Start_Stage.cpp
+  The_Radiance.cpp
+  The_Radiance_Stage.cpp
+  UpSlash_Effect.cpp
+  Up_Hit_Effect.cpp
+  Vertical_Spear.cpp
+  Wall_Jump_Effect.cpp
+  White_Spike.cpp
+  코드를 생성하고 있습니다.
+  All 1006 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  코드를 생성했습니다.
+  HollowKnight.vcxproj -> C:\Cosmo\Jusin\3. Windows API\API Project\HollowKnight\Release\HollowKnight.exe
+  HollowKnight.vcxproj -> C:\Cosmo\Jusin\3. Windows API\API Project\HollowKnight\Release\HollowKnight.pdb (Full PDB)
